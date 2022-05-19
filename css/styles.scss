@@ -155,6 +155,7 @@
               }
               &__title {
                   @extend %fonts__Garamond-700;
+                  text-align: center;
               }
               &__scroll-w {
                   display: flex;
@@ -186,6 +187,8 @@
           width: 100%;
           height: 100%;
           padding: 40px 0px 246px 0px;
+          overflow: visible;
+          opacity: 1;
           top: 0;
           right: 0;
           background-color: #111111;
@@ -286,4 +289,31 @@
                   margin-top: 15px;
               }
           }
+      }
+      
+      .description-w {
+          width: 100%;
+          padding: 120px 0px 191px 0px;
+      }
+      
+      .description {
+          .description-header {
+              max-width: 1296px;
+              width: 100%;
+              margin: 0 auto;
+              &__title {
+                  max-width: inherit;
+                  width: inherit;
+                  display: flex;
+                  justify-content: center;
+              }
+              &__text {}
+          }
+          &__items {}
+          &__items-top {}
+          &__item {}
+          &__img-w {}
+          &__img {}
+          &__item-name {}
+          &__items-bottom {}
       }
