@@ -24,7 +24,7 @@
   color: #FFFFFF;
 }
 
-.header .header-content__scroll {
+.header .header-content__scroll, .description .description-header__text {
   font-family: 'Cormorant Garamond';
   font-weight: 700;
   font-size: 18px;
@@ -36,6 +36,13 @@
   font-family: 'Garamond';
   font-weight: 700;
   font-size: 72px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.description__item-name {
+  font-family: 'Garamond';
+  font-size: 30px;
   line-height: 120%;
   color: #FFFFFF;
 }
@@ -354,20 +361,82 @@ body {
   padding: 120px 0px 191px 0px;
 }
 
-.description .description-header {
+.description {
   max-width: 1296px;
   width: 100%;
   margin: 0 auto;
 }
 
+.description .description-header {
+  margin-bottom: 96px;
+}
+
 .description .description-header__title {
-  max-width: inherit;
-  width: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 60px;
+}
+
+.description .description-header__text {
+  max-width: 856px;
+  width: 100%;
+  font-size: 27px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.description__items {
+  max-width: inherit;
+  width: inherit;
+}
+
+.description__items-top {
+  max-width: inherit;
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.description__item {
+  max-width: 416px;
+  width: 100%;
+}
+
+.description__img-continer {
+  position: relative;
+  max-width: 396px;
+  width: 100%;
+  border: 1px solid rgba(205, 170, 125, 0.5);
+  margin-bottom: 50px;
+  left: 20px;
+}
+
+.description__img {
+  position: relative;
+  max-width: 396px;
+  min-height: 300px;
+  background-size: cover;
+  top: 20px;
+  right: 20px;
+}
+
+.description__items-bottom {
+  max-width: inherit;
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=styles.css.map */
