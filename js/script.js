@@ -9,3 +9,14 @@
  burgerNode.addEventListener('click', function() {
      sidebarNode.classList.remove('header-sidebar--js-hidden')
  })
+ $(document).ready(function() {
+     $('.cosmetics__slider').slick({
+         arrows: false,
+         dots: true,
+         slidesToShow: 4,
+         speed: 1000,
+         autoplay: true,
+         centerMode: true,
+     });
+
+ });

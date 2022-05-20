@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap");
@@ -358,7 +359,7 @@ body {
 
 .description-w {
   width: 100%;
-  padding: 120px 0px 191px 0px;
+  padding: 120px 0px 75px 0px;
 }
 
 .description {
@@ -438,5 +439,72 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.cosmetics-w {
+  width: 100%;
+  padding: 75px 0px;
+}
+
+.cosmetics {
+  max-width: 1296px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cosmetics__slider {
+  max-width: inherit;
+  width: inherit;
+  /* Лента слайдов */
+  /* Активная точка */
+  /* Элемент точки */
+}
+
+.cosmetics__slider .slick-list {
+  overflow: hidden;
+}
+
+.cosmetics__slider .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cosmetics__slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.cosmetics__slider li {
+  list-style: none;
+}
+
+.cosmetics__slider li:not(:first-child) {
+  margin-left: 10px;
+}
+
+.cosmetics__slider li.slick-active button {
+  background-color: #CDAA7D;
+  opacity: 1;
+}
+
+.cosmetics__slider li button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #CDAA7D;
+  opacity: 0.3;
+}
+
+.cosmetics__logo {
+  max-width: 306px;
+  width: 100%;
+  min-height: 144px;
 }
 /*# sourceMappingURL=styles.css.map */
