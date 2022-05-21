@@ -33,7 +33,7 @@
   color: #FFFFFF;
 }
 
-.header .header-content__title, .titles, .work .work__title {
+.header .header-content__title, .titles, .work .work__title, .footer-bottom__Copyright {
   font-family: 'Garamond';
   font-weight: 700;
   font-size: 72px;
@@ -640,7 +640,7 @@ body {
   opacity: 0.5;
 }
 
-.footer__inner {
+.footer__top-inner {
   max-width: inherit;
   width: inherit;
   display: -webkit-box;
@@ -681,5 +681,28 @@ body {
 
 .footer__instagram-title {
   margin-bottom: 25px;
+}
+
+.footer-bottom-w {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.footer-bottom {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-bottom__Copyright {
+  font-size: 18px;
+  line-height: 140%;
+  opacity: 0.5;
 }
 /*# sourceMappingURL=styles.css.map */

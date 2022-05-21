@@ -522,7 +522,7 @@ body {
         background-color: #FFFFFF;
         opacity: 0.5;
     }
-    &__inner {
+    &__top-inner {
         max-width: inherit;
         width: inherit;
         display: flex;
@@ -562,4 +562,23 @@ body {
     }
     &__instagram-link {}
     &__instagram-icon {}
+}
+
+.footer-bottom-w {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.footer-bottom {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    &__Copyright {
+        @extend %fonts__Garamond-700;
+        font-size: 18px;
+        line-height: 140%;
+        opacity: 0.5;
+    }
 }
