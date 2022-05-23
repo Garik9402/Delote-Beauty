@@ -168,6 +168,9 @@ body {
             display: flex;
             justify-content: center;
         }
+        &__scroll-link {
+            text-decoration: none;
+        }
         &__scroll {
             position: relative;
             @extend %fonts__Cormorant-Garamond-700;
